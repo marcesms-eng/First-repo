@@ -1,12 +1,12 @@
 import streamlit as st
 
-st.title("Calculadora de promedio de notas para ramos con dos evaluaciones 35%, una de 20% y una de 10%. Nota: usar . antes de los decimales. 🌟")
+st.title("Calculadora de promedio de notas con evaluaciones que pesan 35% (en dos evaluaciones), 20% y 10%. Nota: usar . antes de los decimales. 🌟")
 
 # Textos y text boxes
-valor1 = st.text_input("Nota evaluación 35%:", "")
-valor2 = st.text_input("Nota evaluación 35%:", "")
-valor3 = st.text_input("Nota evaluación 20%:", "")
-valor4 = st.text_input("Nota evaluación 10%:", "")
+valor1 = st.text_input("Nota evaluación 35%:", key="v1")
+valor2 = st.text_input("Nota evaluación 35%:", key="v2")
+valor3 = st.text_input("Nota evaluación 20%:", key="v3")
+valor4 = st.text_input("Nota evaluación 10%:", key="v4")
 
 # Botón para calcular
 if st.button("Calcular promedio final"):
