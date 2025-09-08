@@ -1,6 +1,6 @@
 import streamlit as st
 
-# st.title("Con cambio - Calculadora de promedio de notas con evaluaciones que pesan 35% (en dos evaluaciones), 20% y 10%. Nota: usar . antes de los decimales. 🌟")
+# st.title("Calculadora de promedio de notas con evaluaciones que pesan 35% (en dos evaluaciones), 20% y 10%. Nota: usar . antes de los decimales. 🌟")
 
 # Título principal dinámico
 st.markdown(
