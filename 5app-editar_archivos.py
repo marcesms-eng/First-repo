@@ -2,7 +2,7 @@
 archivo = "notas.txt"
 
 # Escribir en el archivo
-notas = [4.5, 5.0, 3.8]
+notas = [2.0, 5.0, 3.8]
 with open(archivo, "w") as f:
     f.write("Notas registradas:\n")
     for n in notas:
