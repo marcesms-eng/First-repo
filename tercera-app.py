@@ -21,7 +21,7 @@ print(f"\nHola {nombre}, en 2050 tendrás {edad + (2050 - 2025)} años.\n")
 # -----------------------------
 # 2. OPERADORES Y CONDICIONALES
 # -----------------------------
-nota = float(input("Ingresa tu nota (1 a 7): "))
+nota = float(input("Ingresa tu nota (1 a 7) con punto comoseparador de decimales: "))
 
 if nota >= 4.0:
     print("✅ Aprobaste el ramo")
